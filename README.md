@@ -1,12 +1,3 @@
-
-## Clone a repository
-
-$ git clone https://[user]]@bitbucket.org/cibelermallmann/easyhealth-automation-test.git
-
-[user] = nome do usuário no bitbucket
-
-----
-
 ## Install the Project
 
 
