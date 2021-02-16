@@ -1,8 +1,13 @@
 loginpage = LoginPage.new
 
-Given("Eu estou na tela de login Blip") do
-  visit 'https://account.blip.ai/login'
+Given("Eu acesso o link {string}") do |string|
+  visit string
 end
+
+Given("Eu clico em Cadastre-se Grátis") do
+  loginpage.cadastro.click
+end
+
 
 Then("Eu vejo a mensagem {string}") do |string|
   expect(page).to eql(string)

@@ -5,5 +5,6 @@ class LoginPage < SitePrism::Page
   element :email, '#email'
   element :password, '#password'
   element :login, '#blip-login'
+  element :cadastro, '#blip-register'
 
 end
